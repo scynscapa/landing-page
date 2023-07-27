@@ -48,23 +48,29 @@ body {
 .three, 
 .four,
 .img-container,
-.images {
+.images,
+.one-left {
     display: flex;
     align-items: center;
 }
 
 .one {
     background-color: #1F2937;
+    padding: 30px;
 }
 
 .two,
-.img-container {
+.img-container,
+.one-left {
     flex-direction: column;
 }
 
 .one-left {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    gap: 10px;
 }
 
 .hero {
@@ -85,10 +91,16 @@ a {
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    width: 100px;
+    border-radius: 5px;
 }
 
 .main-image {
     color: #E5E7EB;
+    background-color: gray;
+    padding: 50px 75px;
+    margin-left: auto;
+    flex: 1;
 }
 
 .two-header {
@@ -99,6 +111,7 @@ button {
 
 .img {
     border: 2px solid blue;
+    border-radius: 15px;
     flex-shrink: 0;
     width: 100px;
     height: 100px;
