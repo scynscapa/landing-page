@@ -52,11 +52,13 @@ body {
 .one-left {
     display: flex;
     align-items: center;
+    gap: 15px;
+    padding: 30px;
 }
 
 .one {
     background-color: #1F2937;
-    padding: 30px;
+
 }
 
 .two,
