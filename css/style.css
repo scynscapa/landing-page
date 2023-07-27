@@ -58,12 +58,16 @@ body {
 
 .one {
     background-color: #1F2937;
+}
 
+.three {
+    background-color: #E5E7EB;
 }
 
 .two,
 .img-container,
-.one-left {
+.one-left,
+.three {
     flex-direction: column;
 }
 
@@ -125,4 +129,17 @@ button {
 
 .img-container {
     width: 100px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: thin;      /* not working */
+}
+
+.quote-attribution {
+    font-size 24px;
+    font-weight: bold;
+    margin-left: auto;
 }
